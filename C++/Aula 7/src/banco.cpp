@@ -120,7 +120,7 @@ void Banco::atendimento() //Realiza o atendimento ao cliente(Função chamada na
                             cout << "Digite o numero da conta de deposito: ";
                             cin >> numC;
                             cout << ""<< endl;
-                            contaCliente->Tranferencia(senhain,valor,buscaConta(numC));
+                            contaCliente->Tranferencia(senhain,valor,this->buscaConta(numC));
                             break;
                         case 5:
                             atendimento = false;
