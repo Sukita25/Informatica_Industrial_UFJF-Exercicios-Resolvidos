@@ -1,4 +1,5 @@
-    #      |  |  |  | | |
+#https://wiki.python.org/moin/BitManipulation
+    #      |  |  |  | | |    
 A = int('0000010000010101',2)
 print(A)
 B = (A & 0b0000000000000001) >0
