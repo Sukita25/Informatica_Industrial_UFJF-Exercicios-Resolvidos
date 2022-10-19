@@ -11,3 +11,7 @@ B = [(A & 0b0000000000000001) >0,
 
 for x in B:
     print(x)
+    
+C ='00'+str(int(B[5]))+'00'+str(int(B[4]))+'00'+str(int(B[3]))+'00'+str(int(B[2]))+'0'+str(int(B[1]))+'0'+str(int(B[0]))
+C = int(C,2)
+print(C)
