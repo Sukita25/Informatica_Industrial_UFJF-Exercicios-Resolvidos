@@ -11,24 +11,31 @@ double Robo::getPosicaoAtual(char cordenada){
     {
     case 'x':
         cout << this->PosicaoAtual[0]<<endl;
+        return this->PosicaoAtual[0];
         break;
     case 'X':
         cout << this->PosicaoAtual[0]<<endl;
+        return this->PosicaoAtual[0];
         break;
     case 'y':
         cout << this->PosicaoAtual[1]<<endl;
+        return this->PosicaoAtual[1];
         break;
     case 'Y':
         cout << this->PosicaoAtual[1]<<endl;
+        return this->PosicaoAtual[1];
         break;
     case 'z':
         cout << this->PosicaoAtual[2]<<endl;
+        return this->PosicaoAtual[2];
         break;
     case 'Z':
         cout << this->PosicaoAtual[2]<<endl;
+        return this->PosicaoAtual[2];
         break;
     default:
         cout << "Posicao invalida" << endl;
+        return -999;
         break;
     }
 }
